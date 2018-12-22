@@ -1,0 +1,97 @@
+body{
+	display: grid;
+	grid-template-rows: 0.005fr 0.05fr 0.5fr;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+    transition-property: all;
+
+}
+
+
+.textFunctii{
+	opacity: 0;
+
+
+}
+.Ecuatii{
+	grid-column: 2/3;
+	opacity: 1;
+
+}
+.Move
+{
+
+	transition-property: all;
+	transition-duration: 1.5s;
+
+}
+
+.Functii, .textFunctii{
+	grid-column: 1/2;
+	grid-row: 2/3
+}
+
+
+.Titlu{
+	text-align: center;
+	grid-column: 1 / 4;
+	grid-row: 1/1;
+}
+
+.Ecuatii:hover
+{
+
+    padding-right: 400px;
+    position: relative;
+    transition-duration: 1.5s;
+    transform: translate(1px);
+}
+
+
+}
+
+.Ecuatii:hover
+{
+
+    transition-duration: 1.5s;
+    transform: translate(0px, 0px);
+
+}
+
+}
+.Ecuatii
+{
+
+    transition-property: all;
+    transition-duration: 1.5s;
+
+}
+.Move
+{
+
+	transition-property: all;
+	transition-duration: 1.5s;
+
+}
+
+.Functii:hover
+{
+
+    transition-duration: 1.5s;
+    padding-left: 400px;
+    position: relative;
+    transition-property: all;
+    transform: translate(1px);
+    transform: translate(0px, 0px);
+    border:0px;
+
+
+}
+
+.Main{
+	grid-row: 3/4;
+	grid-column: 1/4;
+	text-align:center;
+	font-size: 250%;
+	border: 10px grey groove;
+}

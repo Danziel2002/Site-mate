@@ -1,0 +1,32 @@
+body{
+
+	background-color: #E5EAD5;
+}
+a{
+	color: black;
+	text-decoration: none;
+
+}
+
+.textFunctii{
+	background-color: #ade1e5;
+}
+
+.TitluF{
+	
+	box-shadow: -2px 2px 3px grey;
+	background-color: #A8DCD1;
+
+}
+
+.TitluE{
+	background-color: #A8DCD1;
+	box-shadow: 2px 2px 3px grey;
+}
+
+.Titlu{
+
+	box-shadow: -1px 10px 36px -1px grey;
+	background-color: #73C1C6;
+}
+
